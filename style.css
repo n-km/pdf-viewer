@@ -1,0 +1,70 @@
+body {
+    margin: 15px;
+}
+.content {
+    background-color: white;
+    border-radius: 0px;
+    border-width: 0px;
+    box-shadow: 0 0 3px black;
+    padding: 20px;
+    font-family: 'PT Mono';
+}
+.content input[type=text] {
+    padding: 5px;
+    border-radius: 0px;
+    border-style: double;
+    outline: none;
+    font-family: 'PT Mono';
+    transition: 0.2s;
+}
+.content input[type=text]:focus {
+    border-color: black;
+}
+.content input[type=submit] {
+    display: none;
+}
+.content label {
+    padding: 5px;
+    cursor: pointer;
+    border-radius: 3px;
+    border-width: 1px;
+    border-color: transparent;
+    background-color: white;
+
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+.content label:hover {
+    text-decoration: underline;
+    background-color: black;
+    color: white;
+}
+.content iframe {
+    width: 70%;
+    margin-top: 20px;
+    border-radius: 10px;
+    margin-left: 15%;
+    height: 70vh;
+    box-shadow: none;
+}
+#shareButton {
+    position: fixed;
+    bottom: 10px;
+    right: 10px;
+    padding: 10px;
+    border-radius: 20px 20px 20px 3px;
+    font-size: 40px;
+    width: 70px;
+    height: 70px;
+    cursor: pointer;
+    transition: 0.2s;
+    border-style: double;
+}
+#shareButton:hover {
+    background-color: black;
+    color: white;
+}
